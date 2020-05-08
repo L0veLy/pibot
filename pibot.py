@@ -15,7 +15,7 @@ PREFIX = "."
 
 @client.command()
 async def game(ctx):
-	await client.change_presence( status = discord.Status.online, activity = discord.Game( 'Minecraft с Равшаном'  ) )
+	await client.change_presence( status = discord.Status.online, activity = discord.Game( 'CS:GO с Равшаном'  ) )
 
 @client.command()
 async def info(ctx):
