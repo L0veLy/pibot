@@ -74,5 +74,5 @@ async def on_ready():
     client.loop.create_task(rainbowrole(rainbowrolename))
     print('Радужная роль работает')     
          
-#Bot.run(str(token))
-client.run(token)
+Bot.run(str(token))
+#client.run(token)
